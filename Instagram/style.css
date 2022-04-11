@@ -1,0 +1,330 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin:0;
+    background-color: rgb(238, 232, 232);
+
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 2.5vh;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 1.5vh;
+    color: gray;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: gray;
+}
+.left{
+    background-color: rgb(238, 232, 232);
+    width: 20%;
+    height: 100vh;
+}
+.right{
+    background-color: white;
+    width: 80%;
+    height: 100vh;
+    border-radius: 15px;
+}
+
+.insta_logo{
+    width: 40px;
+    padding: 35px 0 0 30px;
+}
+.insta_text{
+    width: 100px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.ring{
+    width: 130px;
+    height: 130px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ring_white{
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: rgb(238, 232, 232);
+}
+.egg_man{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.name{
+    padding-left: 135px;
+    padding-top: 10px;
+}
+.tag{
+    padding-left: 150px;
+    padding-top: 5px;
+}
+.followers-page{
+    display : flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+.menus{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+.menu_imgs{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(238, 232, 232);
+}
+.feedleft, .explore, .notif, .messages, .direct, .status, .settings{
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+    padding-left: 2em;
+}
+.settings{
+    padding-bottom: 2em;
+}
+.logout{
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+.hr {
+    color: gray;
+    width: 80%;
+}
+.menu_text{
+    padding-left: 2em;
+    font-size: 1.15em;
+    color: black;
+}
+.nwid{
+    padding-left: 130px;
+}
+.mwid{
+    padding-left: 140px;
+}
+.right > * {
+    padding-left: 4em;
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 7%;
+    align-items: center;
+}
+.topright{
+    width: 25%;
+    display: flex;
+}
+.search{
+    display: flex !important;
+    background: rgba(197, 197, 197, 0.568);
+    height: 50%;
+    align-items: center;
+    width: 26%;
+    border-radius: 5px;
+}
+.right_glass{
+    width: 25px;
+    height: 25px;
+    margin: 7px;
+}
+.top_icons{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+.search_p{
+    padding-left: 1em;
+    width: 50%;
+    height: 50%;
+    background: 0;
+    border: 0;
+}
+.topicon{
+    display: flex;
+}
+
+.addphoto{
+    background: red;
+    width: 40%;
+    height: 2em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background: rgb(233,89,80);
+    background: linear-gradient(55deg, rgba(233,89,80,1) 0%, rgba(252,204,99,1) 100%);
+}
+.bgaddphoto{
+    background: rgba(255, 255, 255, 0.514);
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white 1px solid;
+}
+.addphotoplus{
+    width: 15px;
+    height: 15px;
+}
+.addphotoh1{
+    font-size: 1.1em;
+    color: white;
+    margin-left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.stories{
+    margin-top: 1em;
+    width: 100%;
+}
+.storyheader{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.watchall{
+    display: flex;
+    align-items: center;
+}
+.bgwatchall{
+    background: rgba(255, 255, 255, 0.514);
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+}
+.watchallp{
+    font-size: 1.1em;
+    color: black;
+    margin-left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.storycont{
+    margin-top: 2em;
+    display: flex;
+}
+.ring_story{
+    width: 130px;
+    height: 130px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2em 0 0; 
+}
+.egg_man{
+    object-fit: cover;
+}
+
+.feedp{
+    font-size: 2.5em;
+    color: black;
+    margin-left: 10px;
+}
+.mainh1{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 3vh;
+}
+.feed{
+    width: 100%;
+    display: block;
+    margin-top: 1em;
+}
+.feedheader{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.latestpopular{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.lp{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 2vh;
+}
+.lp1{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 2vh;
+    color: rgb(134, 134, 134);
+}
+.images{
+    display: flex;
+    width: 90%;
+    margin-top: 0.5em;
+    justify-content: space-between;
+}
+.main{
+    width: 22%;
+}
+.main_pic{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.mini_pro{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+}
+.hashtag{
+    display: flex;
+    margin-right: 2em;
+}
+.comm{
+    display: flex;
+    align-items: center;
+}
+.comm_img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 10px;
+}
